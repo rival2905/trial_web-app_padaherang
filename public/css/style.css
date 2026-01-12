@@ -1,0 +1,44 @@
+/* Custom styles tambahan */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.container {
+    max-width: 1200px;
+}
+
+/* Animasi untuk form */
+input:focus, textarea:focus {
+    transform: scale(1.02);
+    transition: all 0.2s ease;
+}
+
+button {
+    cursor: pointer;
+}
+
+button:active {
+    transform: scale(0.98);
+}
+
+/* Alert animations */
+.alert-enter {
+    animation: slideDown 0.3s ease;
+}
+
+@keyframes slideDown {
+    from {
+        opacity: 0;
+        transform: translateY(-20px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
