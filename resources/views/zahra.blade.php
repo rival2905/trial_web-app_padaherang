@@ -72,12 +72,12 @@
         <h1>Data Diri</h1>
 
         <!-- Menambahkan Foto Profil -->
-        <img src="{{ asset($data->image) }}" alt="Foto Profil" class="profile-img" />
+        <img src="{{ asset('images/zahra.jpg') }}" alt="Foto Profil" class="profile-img" />
 
         <table>
             <tr>
                 <td>Nama</td>
-                <td>{{$data->name}}</td>
+                <td>Zahra Sulha Nurul Al Sifah</td>
             </tr>
             <tr>
                 <td>NIS</td>

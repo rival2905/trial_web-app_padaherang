@@ -72,16 +72,16 @@
         <h1>Data Diri</h1>
 
         <!-- Menambahkan Foto Profil -->
-        <img src="{{ asset($data->image) }}" alt="Foto Profil" class="profile-img" />
+        <img src="{{ asset('images/riskia.jpg') }}" alt="Foto Profil" class="profile-img" />
 
         <table>
             <tr>
                 <td>Nama</td>
-                <td>{{$data->name}}</td>
+                <td>Riskia Wulan</td>
             </tr>
             <tr>
                 <td>NIS</td>
-                <td>232410250</td>
+                <td>232410246</td>
             </tr>
             <tr>
                 <td>Jurusan</td>
@@ -93,15 +93,15 @@
             </tr>
             <tr>
                 <td>Alamat</td>
-                <td>Kalipucang</td>
+                <td>Padaherang</td>
             </tr>
-             <tr>
+            <tr>
     <td>WhatsApp</td>
     <td>
-        <a href="https://wa.me/6282115166288"
+        <a href="https://wa.me/6287868236300"
            target="_blank"
            style="color:#25D366; text-decoration:none;">
-           0821-1516-6288
+           0878-6823-6300
         </a>
     </td>
 </tr>
@@ -109,10 +109,10 @@
             <tr>
     <td>Email</td>
     <td>
-        <a href="https://mail.google.com/mail/?view=cm&to=232410250@smkn1padaherang.sch.id"
+        <a href="https://mail.google.com/mail/?view=cm&to=232410246@smkn1padaherang.sch.id"
            target="_blank"
            style="color:#0d6efd; text-decoration:none;">
-           232410250@smkn1padaherang.sch.id
+           232410246@smkn1padaherang.sch.id
         </a>
     </td>
 </tr>
@@ -120,10 +120,10 @@
             <tr>
             <td>Instagram</td>
     <td>
-        <a href="https://www.instagram.com/faassyifaa?igsh=a3RpOHMzOHVtMWV6" 
+        <a href="https://www.instagram.com/rskiawlan_?igsh=MTZoc3YxNWZtbjZjYw==" 
            target="_blank"
            style="color:#0d6efd; text-decoration:none;">
-            @fassyifaa
+            @rskiawlan_
         </a>
     </td>
 </tr>

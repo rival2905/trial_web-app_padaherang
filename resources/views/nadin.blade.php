@@ -72,36 +72,36 @@
         <h1>Data Diri</h1>
 
         <!-- Menambahkan Foto Profil -->
-        <img src="{{ asset($data->image) }}" alt="Foto Profil" class="profile-img" />
+        <img src="{{ asset('images/nadin.jpg') }}" alt="Foto Profil" class="profile-img" />
 
         <table>
             <tr>
                 <td>Nama</td>
-                <td>{{$data->name}}</td>
+                <td>Nadin Nadiati</td>
             </tr>
             <tr>
                 <td>NIS</td>
-                <td>232410250</td>
+                <td>232410237</td>
             </tr>
             <tr>
                 <td>Jurusan</td>
                 <td>Pengembangan Perangkat Lunak & Gim</td>
             </tr>
-             <tr>
+            <tr>
                 <td>Asal Sekolah</td>
                 <td>SMK NEGERI 1 PADAHERANG</td>
             </tr>
             <tr>
                 <td>Alamat</td>
-                <td>Kalipucang</td>
+                <td>Ciamis</td>
             </tr>
-             <tr>
+            <tr>
     <td>WhatsApp</td>
     <td>
-        <a href="https://wa.me/6282115166288"
+        <a href="https://wa.me/6285135252494"
            target="_blank"
            style="color:#25D366; text-decoration:none;">
-           0821-1516-6288
+           0851-3525-2494
         </a>
     </td>
 </tr>
@@ -109,27 +109,26 @@
             <tr>
     <td>Email</td>
     <td>
-        <a href="https://mail.google.com/mail/?view=cm&to=232410250@smkn1padaherang.sch.id"
+        <a href="https://mail.google.com/mail/?view=cm&to=232410237@smkn1padaherang.sch.id"
            target="_blank"
            style="color:#0d6efd; text-decoration:none;">
-           232410250@smkn1padaherang.sch.id
+           232410237@smkn1padaherang.sch.id
         </a>
     </td>
 </tr>
 
             <tr>
-            <td>Instagram</td>
+    <td>Instagram</td>
     <td>
-        <a href="https://www.instagram.com/faassyifaa?igsh=a3RpOHMzOHVtMWV6" 
+        <a href="https://www.instagram.com/nadinadiaaa___?igsh=eGhkYmx2ZzVjMjVt" 
            target="_blank"
            style="color:#0d6efd; text-decoration:none;">
-            @fassyifaa
+            @nadinadiaaa___
         </a>
     </td>
 </tr>
-        </table>
-
-        <a href="{{ route('kontak') }}" class="back">← Kembali</a>
+</table>
+       <a href="{{ route('kontak') }}" class="back">← Kembali</a>
     </div>
 </div>
 
