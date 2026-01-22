@@ -17,8 +17,11 @@
                     <a href="{{ route('home') }}" class="px-3 py-2 rounded-lg hover:bg-blue-500 transition {{ request()->routeIs('home') ? 'bg-blue-700' : '' }}">
                         Home
                     </a>
-                    <a href="{{ route('kontak') }}" class="px-3 py-2 rounded-lg hover:bg-blue-500 transition {{ request()->routeIs('kontak') ? 'bg-blue-700' : '' }}">
+                    <a href="{{ route('contact') }}" class="px-3 py-2 rounded-lg hover:bg-blue-500 transition {{ request()->routeIs('kontak') ? 'bg-blue-700' : '' }}">
                         Kontak
+                    </a>
+                    <a href="{{ route('galeri') }}" class="px-3 py-2 rounded-lg hover:bg-blue-500 transition {{ request()->routeIs('galeri') ? 'bg-blue-700' : '' }}">
+                        Galeri
                     </a>
                     <a href="{{ route('about') }}" class="px-3 py-2 rounded-lg hover:bg-blue-500 transition {{ request()->routeIs('about') ? 'bg-blue-700' : '' }}">
                         About

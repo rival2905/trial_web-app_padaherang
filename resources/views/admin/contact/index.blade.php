@@ -62,7 +62,7 @@
         <div class="flex items-center gap-x-6">
           <img src="{{ asset($item->image) }}" alt="" class="w-64 h-64 rounded-full outline-offset-1 outline-black/5" />
           <div>
-            <h3 class="text-base/7 font-semibold tracking-tight text-gray-900"><a href="{{route('kontak.detail',$item->name)}}">{{$item->name}}</a></h3>
+            <h3 class="text-base/7 font-semibold tracking-tight text-gray-900"><a href="{{route('contact.detail',$item->id)}}">{{$item->name}}</a></h3>
             <p class="text-sm/6 font-semibold text-indigo-600">Siswa</p>
           </div>
         </div>

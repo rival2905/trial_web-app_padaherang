@@ -72,20 +72,20 @@
         <h1>Data Diri</h1>
 
         <!-- Menambahkan Foto Profil -->
-        <img src="{{ asset('images/zahra.jpg') }}" alt="Foto Profil" class="profile-img" />
+        <img src="{{ asset($data->image) }}" alt="Foto Profil" class="profile-img" />
 
         <table>
             <tr>
                 <td>Nama</td>
-                <td>Zahra Sulha Nurul Al Sifah</td>
+                <td>{{$data->name}}</td>
             </tr>
             <tr>
                 <td>NIS</td>
-                <td>232410250</td>
+                <td>{{$data->nis}}</td>
             </tr>
             <tr>
                 <td>Jurusan</td>
-                <td>Pengembangan Perangkat Lunak & Gim</td>
+                <td>{{$data->jurusan}}</td>
             </tr>
              <tr>
                 <td>Asal Sekolah</td>
@@ -93,15 +93,15 @@
             </tr>
             <tr>
                 <td>Alamat</td>
-                <td>Kalipucang</td>
+                <td>{{$data->alamat}}</td>
             </tr>
              <tr>
     <td>WhatsApp</td>
     <td>
-        <a href="https://wa.me/6282115166288"
+        <a href="https://wa.me/{{$data->whatsapp}}"
            target="_blank"
            style="color:#25D366; text-decoration:none;">
-           0821-1516-6288
+           {{$data->whatsapp}}
         </a>
     </td>
 </tr>
@@ -109,10 +109,10 @@
             <tr>
     <td>Email</td>
     <td>
-        <a href="https://mail.google.com/mail/?view=cm&to=232410250@smkn1padaherang.sch.id"
+        <a href="https://mail.google.com/mail/?view=cm&to={{$data->email}}"
            target="_blank"
            style="color:#0d6efd; text-decoration:none;">
-           232410250@smkn1padaherang.sch.id
+           {{$data->email}}
         </a>
     </td>
 </tr>
@@ -123,13 +123,13 @@
         <a href="https://www.instagram.com/faassyifaa?igsh=a3RpOHMzOHVtMWV6" 
            target="_blank"
            style="color:#0d6efd; text-decoration:none;">
-            @fassyifaa
+            {{$data->instagram}}
         </a>
     </td>
 </tr>
         </table>
 
-        <a href="{{ route('kontak') }}" class="back">← Kembali</a>
+        <a href="{{ route('contact') }}" class="back">← Kembali</a>
     </div>
 </div>
 
