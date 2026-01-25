@@ -38,7 +38,8 @@
 
                         <!-- Tombol Delete -->
                         <form action="{{ route('galeri.destroy', $item->id) }}" 
-                              method="POST" 
+
+                        method="POST" 
                               style="display:inline-block;"
                               onsubmit="return confirm('Yakin ingin menghapus data ini?')">
                             @csrf
